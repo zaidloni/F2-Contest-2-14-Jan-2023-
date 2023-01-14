@@ -1,0 +1,47 @@
+* {
+  margin: 10;
+  padding: 10;
+  box-sizing: border-box;
+}
+.container {
+  position: relative;
+}
+form {
+  display: flex;
+  justify-content: space-around;
+}
+input {
+  width: 250px;
+}
+
+.btn {
+  margin-top: 10px;
+  border: 2px solid black;
+  /* position: absolute; */
+  left: 50px;
+  top: 100px;
+  width: 150px;
+  height: 40px;
+  color: black;
+  background-color: lightgray;
+}
+p {
+  top: 150px;
+}
+
+.green {
+  color: green;
+}
+.red {
+  color: red;
+}
+
+.reset-btn {
+  display: flex;
+  flex-direction: column;
+}
+table {
+  text-align: center;
+  width: 50vw;
+  border-collapse: collapse;
+}
